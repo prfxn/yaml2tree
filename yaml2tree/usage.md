@@ -4,10 +4,13 @@ Creates a tree of directories, specified using nested lists in YAML
 
 ### Usage: 
 
-    [mode=XXX] yaml2tree <yaml-file>
+    [mode=XXX] [noop=1] yaml2tree <yaml-file>
 
         mode=XXX       set this env var to provide a chmod-style octal value to use as file mode
                        for the created directories.
+        
+        noop=1         if this env var is set, no directories are created, but the output displays
+                       which ones will be created.
     
         <yaml-file>    path to YAML file containing the directory tree specification.
                        The YAML is a list of values, where every value is either a directory name
