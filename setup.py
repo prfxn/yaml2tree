@@ -12,6 +12,10 @@ setup(name='yaml2tree',
       ],
       packages=['yaml2tree'],
       package_data={'yaml2tree': ['usage.md']},
+      python_requires='>=3',
+      install_requires = [
+          'pyyaml'
+      ],
       zip_safe=False,
       entry_points={
           'console_scripts': [
