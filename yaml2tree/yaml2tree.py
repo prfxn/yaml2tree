@@ -74,7 +74,7 @@ def create_dir(path):
     else:
         if mode is not None:
             try:    os.chmod(path, mode)
-            except: print(f"{default_fg}failed to set mode {mode} on {path}{default_fg}")
+            except: print(f"{red_fg}failed to set mode {mode} on {path}{default_fg}")
 
 
 def get_yaml(filepath):
