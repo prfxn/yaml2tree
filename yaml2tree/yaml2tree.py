@@ -92,6 +92,3 @@ def read_text_file(filepath):
 
 try:    mode = int(os.environ.get("mode"), 8)
 except: mode = None
-
-try:    noop = bool(os.environ.get("noop"))
-except: noop = False
