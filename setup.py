@@ -5,7 +5,7 @@ def get_readme_text():
         return f.read()
 
 setup(name='yaml2tree',
-      version='0.1',
+      version='0.2',
       description='Creates a tree of directories, specified using nested lists in YAML',
       long_description=get_readme_text(),
       long_description_content_type='text/markdown',
