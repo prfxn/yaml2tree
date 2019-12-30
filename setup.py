@@ -1,8 +1,14 @@
 from setuptools import setup
 
+def get_readme_text():
+    with open("README.md", "rt") as f:
+        return f.read()
+
 setup(name='yaml2tree',
       version='0.1',
-      description='',
+      description='Creates a tree of directories, specified using nested lists in YAML',
+      long_description=get_readme_text(),
+      long_description_content_type='text/markdown',
       url='https://github.com/0cd/yaml2tree',
       author='Puneet Arora',
       classifiers=[
