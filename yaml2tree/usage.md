@@ -1,7 +1,8 @@
-⛔️ &nbsp;&nbsp;DEPRECATED 
+⛔️ &nbsp;&nbsp;DEPRECATED  
 
 [mktree](https://github.com/prfxn/recipes/blob/main/shell/mktree.zsh) and [rrmdir](https://github.com/prfxn/recipes/blob/main/shell/rrmdir.zsh) offer a better / simpler solution.
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 # yaml2tree
 Creates a tree of directories, specified using nested lists in YAML
